@@ -1,0 +1,192 @@
+body{
+    background-image: url('../media/indprin.jpg');
+    background-size: cover;
+}
+
+header{
+    background-image: url('../media/h1g.gif');
+    text-align: center;
+    color: white;
+    width: 60%;
+    margin: auto;
+    
+}
+header p{
+    color:white
+    
+}
+
+nav{
+    background-image: url('../media/navprin.gif');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+nav a {
+    color:#ffffff;
+    font-weight: bold;
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 18px;
+    margin: 0 20px;
+    padding: 10px 15px; /* Espaciado dentro del enlace para hacerlo más grande */
+    border-radius: 5px; /* Bordes redondeados para un toque más suave */
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+nav a:hover {
+    background-color: #4104e9; /* Fondo azul cuando se pasa el cursor */
+    color: #ffffff; /* Texto blanco cuando se pasa el cursor */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más fuerte al pasar el cursor */
+}
+header img{
+    transition: transform 0.3 ease;
+}
+header img:hover{
+    transform: scale(1.2);
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-color: black;
+    border-radius: 10%;
+    border-style: dotted;
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenido en el centro de la página */
+    padding: 20px;
+    margin-top: 30px;
+}
+main ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margin por defecto */
+    display: flex; /* Flexbox para alinear los enlaces */
+    flex-direction: column; /* Alinea los elementos de la lista en columna */
+    justify-content: center; /* Centra los enlaces verticalmente */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+main li {
+    font-size: 16px;
+}
+main a {
+    color:#0b0101;
+    font-weight: bold;
+    text-decoration: none; /* Elimina el subrayado */
+    font-size: 25px;
+    margin: 0 20px;
+    padding: 10px 15px; /* Espaciado dentro del enlace para hacerlo más grande */
+    border-radius: 5px; /* Bordes redondeados para un toque más suave */
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+main a:hover {
+    background-color: #8a8080; /* Fondo azul cuando se pasa el cursor */
+    color: #fefefe; /* Texto blanco cuando se pasa el cursor */
+    font-size: 50px;
+    /*transform: translateY(-5px);*/
+   /* transform: rotate(40deg);*/
+   text-decoration: underline;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más fuerte al pasar el cursor */
+}
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 40px;
+}
+
+section img {
+    display: block;
+    margin: 0 auto; /* Centra las imágenes */
+    border-radius: 8px;
+}
+
+/* Botón */
+button {
+    width: 40%;
+    padding: 12px;
+    font-size: 18px;
+    display: block; /* Asegura que el botón se trate como un bloque */
+    margin: 0 auto; /* Centra el botón dentro de su contenedor */
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e05a4f; 
+}
+
+
+aside {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+
+aside h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+aside p {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+aside a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    
+}
+
+aside a:hover {
+    color: #e05a4f;
+}
+
+ 
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+   
+
+    aside {
+        margin-top: 30px;
+    }
+        
+    

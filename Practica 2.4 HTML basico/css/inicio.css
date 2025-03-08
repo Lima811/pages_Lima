@@ -1,0 +1,138 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background-image: url('../media/fondoaside.jpg'); 
+} 
+
+header{
+    background-image: url('../media/orizaba3.jpeg'); 
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat; 
+     text-align: center;
+    color:rgb(185, 244, 8)
+
+}
+  main { 
+    margin-bottom: 20px; 
+    padding: 15px; 
+    background-color: cadetblue;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    text-align: justify;
+    
+} 
+main h2{
+    text-align: center;
+    color: #ffffff;
+}
+main p{
+    font-weight: bold;
+}
+nav {
+    background-image: url('../media/navblog.jpeg');
+    background-size: cover; /* Imagen de fondo que cubre todo el área */
+    padding: 20px;
+    text-align: center; /* Centra el texto en el nav */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    color: white; /* Hace el texto blanco para resaltar sobre el fondo */
+}
+
+nav h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+nav p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margin por defecto */
+    display: flex; /* Flexbox para alinear los enlaces */
+    flex-direction: column; /* Alinea los elementos de la lista en columna */
+    justify-content: center; /* Centra los enlaces verticalmente */
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+nav li {
+    font-size: 16px;
+}
+
+nav a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 18px;
+    color: #007bff; /* Color azul para los enlaces */
+    padding: 10px 20px; /* Relleno alrededor de los enlaces */
+    background-color: #ffffff; /* Fondo blanco para los enlaces */
+    border-radius: 5px; /* Bordes redondeados en los enlaces */
+    transition: all 0.3s ease; /* Transición suave para los efectos */
+}
+
+nav a:hover {
+    background-color: #007bff; /* Fondo azul cuando se pasa el cursor */
+    color: #ffffff; /* Texto blanco cuando se pasa el cursor */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más fuerte al pasar el cursor */
+}
+header h1 { 
+    margin: 0; 
+} 
+nav a { 
+    margin-right: 15px; 
+    text-decoration:double; 
+    
+} 
+li{
+    color: rgb(238, 255, 4);
+    font-weight: bold;
+}
+h2.nav{
+    color:#ffffff
+    
+}
+p.nav{
+    color:rgb(247, 249, 250)
+    
+}
+main section {
+    margin-bottom: 20px; 
+    text-align: center;
+   
+} 
+.comentario:last-child { 
+    border-bottom: none; 
+} 
+aside { 
+    background-color:rgb(51, 51, 99);
+    text-justify: distribute;
+     font-weight: bold;
+} 
+aside a{
+    color: aquamarine;
+}
+h2.aside{
+    color:#ffffff
+}
+p.aside{
+    color:cyan
+}
+h2.aside2{
+    color:white
+}
+li.aside{
+    color:yellow
+}
+
+footer p { 
+    text-align: center; 
+    font-size: 0.9em; 
+    color: #121111; 
+} 
+footer{
+    background-color: cadetblue;
+    
+}

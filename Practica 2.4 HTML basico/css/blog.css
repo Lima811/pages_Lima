@@ -1,0 +1,102 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background-image: url('../media/fondoblog.gif'); 
+   
+    background-size: cover;
+} 
+header{
+    text-align: center;
+}
+header h1{
+    color:cornsilk
+}
+header p{
+    color:rgb(37, 135, 177);
+}
+nav {
+    background-image: url('../media/navblog.jpeg');
+    background-size: cover;
+    /*background-color: #f0f0f0; /* Fondo gris claro para el nav */
+    padding: 20px;
+    text-align: center; /* Centra el texto en el nav */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+nav h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margin por defecto */
+    display: flex; /* Flexbox para alinear los enlaces */
+    justify-content: center; /* Centra los enlaces horizontalmente */
+    gap: 20px; /* Espacio entre los enlaces */
+}
+
+nav li {
+    display: inline; /* Asegura que los elementos de lista se alineen horizontalmente */
+}
+
+nav a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 18px;
+    color: #007bff; /* Color azul para los enlaces */
+    padding: 10px 20px; /* Relleno alrededor de los enlaces */
+    
+    background-color: #ffffff; /* Fondo blanco para los enlaces */
+    border-radius: 5px; /* Bordes redondeados en los enlaces */
+    transition: all 0.3s ease; /* Transición suave para los efectos */
+}
+
+nav a:hover {
+    background-color: #007bff; /* Fondo azul cuando se pasa el cursor */
+    color: #ffffff; /* Texto blanco cuando se pasa el cursor */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más fuerte al pasar el cursor */
+}
+header, main, aside, footer { 
+    margin-bottom: 20px; 
+    padding: 15px; 
+    background: #3c3737; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+
+    
+} 
+header h1 { 
+    margin: 0; 
+} 
+main { 
+    margin-right: 15px; 
+    text-decoration:double; 
+    color: #ffffff; 
+} 
+main a{
+color: rgb(37, 135, 177);
+}
+
+main section {
+    margin-bottom: 20px; 
+} 
+.comentario:last-child { 
+    border-bottom: none; 
+} 
+aside { 
+    background: #b2b2b2; 
+    padding: 10px; 
+   
+} 
+footer p { 
+    text-align: center; 
+    font-size: 0.9em; 
+    color: #fff5f5; 
+} 
+nav h2{
+    color:rgb(244, 252, 252)
+    
+}

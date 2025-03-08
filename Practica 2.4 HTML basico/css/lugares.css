@@ -1,0 +1,52 @@
+body{
+    background-image: url('../media/fondolugares2.gif');
+    background-size: cover;
+}
+td{
+    background-color: rgb(66, 130, 241);
+    border-color: white;
+}
+th{
+    color: white;
+    font-weight: bold;
+    border-color: #ffffff;
+}
+header, nav, main, aside, footer { 
+    margin-bottom: 20px; 
+    padding: 15px; 
+    background: #1d56f2; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    text-align: center;
+} 
+header h1 { 
+    color:aquamarine;
+    margin: 0; 
+} 
+nav,main h2{
+    color: aquamarine;
+}
+header,main p{
+    color: floralwhite;
+}
+nav a { 
+    margin-right: 15px; 
+    text-decoration:double; 
+    color: #ffffff; 
+} 
+main section {
+    margin-bottom: 20px; 
+} 
+.comentario:last-child { 
+    border-bottom: none; 
+} 
+aside { 
+    background: #13749e; 
+    padding: 10px; 
+   
+} 
+footer p { 
+    text-align: center; 
+    font-size: 0.9em; 
+    color: #121111; 
+} 

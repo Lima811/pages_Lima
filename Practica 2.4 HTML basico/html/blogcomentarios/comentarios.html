@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Página de comentarios del Blog de la Guía Turística."> 
+    <meta name="keywords" content="comentarios, blog, guía turística, opiniones"> 
+    <title>Comentarios - Blog Gu&iacute;a Turística</title> 
+    <link rel="stylesheet" href="../../css/comentarios.css">
+</head> 
+<body> 
+    <header> 
+        <h1>Comentarios del Blog</h1> 
+    </header> 
+    <nav>         
+        <a href="entrada.html">Entradas</a> 
+        <br>
+        <a href="../guia/contacto.html">Contacto</a> 
+        <br>
+        <a href="blog.html">Inicio</a> 
+    </nav> 
+    <main> 
+        <section> 
+            <h2>Deja tu Comentario</h2> 
+            <form action="procesar_comentario.php" method="POST"> 
+                <label for="nombre">Nombre:</label> 
+                <input type="text" id="nombre" name="nombre" required> 
+                 
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email" required> 
+                 
+                <label for="comentario">Comentario:</label> 
+                <textarea id="comentario" name="comentario" rows="5" required></textarea> 
+                 
+                <button type="submit">Enviar Comentario</button> 
+            </form> 
+        </section> 
+        <section> 
+            <h2>Comentarios Recientes</h2> 
+            <div class="comentario"> 
+                <p><strong>Juan P&eacute;rez</strong> <em>01/03/2025</em></p> 
+                <p>Excelente gu&iacute;a tur&iacute;stica, muy informativa y pr&aacute;ctica. Me encant&oacute; la secci&oacute;n de 
+                    lugares de inter&eacute;s.</p> 
+            </div> 
+            <div class="comentario"> 
+                <p><strong>Mar&iacute;a Garc&iacute;a</strong> <em>28/02/2025</em></p> 
+                <p>Muy buen contenido, la informaci&oacute;n es muy &uacute;til para planificar mi próxima 
+                    visita a la ciudad.</p> 
+            </div> 
+           
+        </section> 
+    </main> 
+    <aside> 
+        <h3>Informaci&oacute;n Adicional</h3>
+        <p>Para m&aacute;s detalles sobre la gu&iacute;a tur&iacute;stica, visita nuestra p&aacute;gina de <a 
+            href="../../html/guia/contacto.html">Contacto</a> o suscr&iacute;bete al bolet&iacute;n.</p> 
+                </aside> 
+                <footer> 
+                        
+                    <p>&copy; 2025 Gu&iacute;a Tur&iacute;stica de Orizaba. Todos los derechos reservados.</p> 
+                </footer> 
+</body> 
+</html>     
